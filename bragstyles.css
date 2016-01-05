@@ -1,0 +1,90 @@
+#header{
+    border: 10px groove #339933;
+    background-color: #FAEBD7;
+    font-family: Gadget, Arial Black, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+#roundpage{
+    border-radius: 35px;
+    background: #73AD21;
+    margin: auto;
+    text-align: center;
+    font-family: Gadget, Arial Black, sans-serif;
+    padding: 8px;
+    width: 200px;
+    height: 40px;    
+}
+
+#welcome{
+    font-family: Gadget, Arial Black, sans-serif;
+    text-align: center;
+}
+
+#trydiv{
+    background-color: #8B4513;
+    border:3px solid #73AD21;
+    margin: auto
+    width: 50%;
+    font-family: Gadget, Arial Black, sans-serif;
+    text-align: center;
+    padding: 10px;
+   }
+
+#fade{
+    background-color: #B22222;
+    color: yellow;
+    }
+ 
+
+
+div.scribblepic {
+  background: url(bragPics/LcarefulArt.jpg) repeat;
+  border: 8px dotted black;
+}
+
+div.transbox {
+  border-radius: 35px;
+  margin: 50px;
+  background-color: #483D8B;
+  border: 5px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-family: Gadget, Arial Black, sans-serif;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+
+ 
+
+
+body{
+    
+    background-color: #A0522D
+   
+}  
+
+
+/*   styles only on page 2 are located belw this line */ 
+
+div.patterndiv {
+    
+    width: 320px;
+    height: 160px;
+    background-color: #800000;
+    font-family: Gadget, sans-serif;
+    padding: 10px;
+    border-width: 16px;
+    border-image: url(bragPics/LcarefulArt.jpg);
+    border-image-slice: 10%
+    
+    
+}
